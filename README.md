@@ -26,6 +26,6 @@ Simple modular server app for golang with JWT authentication
 }
 
 ### 3. Get me
->http://localhost:8080/v1/auth/sign-up
+>http://localhost:8080/v1/users/me
 #### Header of request
 Add returned token in login request to header! (Token: token)
