@@ -17,3 +17,15 @@ Simple modular server app for golang with JWT authentication
     "password": "4321"
 }
 
+### 2. Login
+>http://localhost:8080/v1/auth/login
+#### Body of request
+{
+    "name": "Karim",
+    "password": "4321"
+}
+
+### 3. Get me
+>http://localhost:8080/v1/auth/sign-up
+#### Header of request
+Add returned token in login request to header! (Token: token)
