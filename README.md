@@ -6,3 +6,12 @@ Simple modular server app for golang with JWT authentication
 
 ## Run
 ```go run main.go``` (At root of project)
+
+## Active routes
+>http://localhost:8080/v1/auth/sign-up
+### Body
+{
+    "name": "Karim",
+    "age": 28,
+    "password": "4321"
+}
